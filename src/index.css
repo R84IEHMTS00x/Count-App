@@ -9,20 +9,22 @@ div {
 }
 
 .count {
-  padding: 130px;
-  font-size: 100px;
+  padding: 100px;
+  font-size: 130px;
+  font-weight: bold;
 }
 
 .plus,
-.Minus {
-  margin: 50px;
+.minus {
+  margin: 100px;
 }
 
 button {
-  width: 400px;
-  height: 100px;
-  font-size: 30px;
-  border-radius: 15px;
+  width: 450px;
+  height: 150px;
+  font-size: 60px;
+  font-weight: bold;
+  border-radius: 18px;
   color: #fff;
   background-color: black;
 }
@@ -30,7 +32,7 @@ button {
 button:hover {
   color: #000;
   background-color: #fff;
-  border-width: 15px;
-  border: 15px solid black;
-  transition: border-width linear .2s;
+  border-width: 18px;
+  border: 18px solid black;
+  transition: border-width linear .3s;
 }
