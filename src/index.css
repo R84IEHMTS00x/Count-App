@@ -9,30 +9,30 @@ div {
 }
 
 .count {
-  padding: 100px;
+  padding: 50px;
   font-size: 130px;
   font-weight: bold;
+  border-bottom: 10px solid #000;
 }
 
 .plus,
 .minus {
-  margin: 100px;
+  margin: 80px;
 }
 
 button {
-  width: 450px;
+  width: 500px;
   height: 150px;
   font-size: 60px;
   font-weight: bold;
-  border-radius: 18px;
-  color: #fff;
-  background-color: black;
+  color: #000;
+  border-radius: 10px;
+  border: 10px solid #000;
+  background-color: #fff;
 }
 
 button:hover {
-  color: #000;
-  background-color: #fff;
-  border-width: 18px;
-  border: 18px solid black;
-  transition: border-width linear .3s;
+  color: #fff;
+  background-color: #000;
+  transition: .6s ease, color .6s ease;
 }
