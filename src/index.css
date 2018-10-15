@@ -3,3 +3,34 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+div {
+  text-align: center;
+}
+
+.count {
+  padding: 130px;
+  font-size: 100px;
+}
+
+.plus,
+.Minus {
+  margin: 50px;
+}
+
+button {
+  width: 400px;
+  height: 100px;
+  font-size: 30px;
+  border-radius: 15px;
+  color: #fff;
+  background-color: black;
+}
+
+button:hover {
+  color: #000;
+  background-color: #fff;
+  border-width: 15px;
+  border: 15px solid black;
+  transition: border-width linear .2s;
+}
