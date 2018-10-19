@@ -36,3 +36,65 @@ button:hover {
   background-color: #000;
   transition: .6s ease, color .6s ease;
 }
+
+@media screen and (max-width: 1024px) {
+  .count {
+    font-size: 105px;
+  }
+  button {
+    width: 600px;
+    height: 170px;
+    font-size: 70px;
+    border: 14px solid #000;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .count {
+    font-size: 100px;
+  }
+  button {
+    border: 12px solid #000;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .count {
+    font-size: 50px;
+  }
+  .plus,
+  .minus {
+    margin: 30px;
+  }
+  button {
+    width: 265px;
+    height: 85px;
+    font-size: 35px;
+    border: 8px solid #000;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .count {
+    font-size: 47px;
+  }
+  .plus,
+  .minus {
+    margin: 30px;
+  }
+  button {
+    width: 250px;
+    height: 80px;
+    font-size: 35px;
+    border: 8px solid #000;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .count {
+    font-size: 44px;
+  }
+  button {
+    border: 7px solid #000;
+  }
+}
