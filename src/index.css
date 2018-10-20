@@ -40,12 +40,6 @@ button:hover {
   .count {
     font-size: 105px;
   }
-  button {
-    width: 600px;
-    height: 170px;
-    font-size: 70px;
-    border: 14px solid #000;
-  }
 }
 
 @media screen and (max-width: 768px) {
