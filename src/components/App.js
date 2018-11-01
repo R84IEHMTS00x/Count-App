@@ -13,7 +13,7 @@ class App extends Component {
         <div class="count">Count App {props.value}</div>
         <button class="plus" onClick={props.increment}>Plus</button>
         <button class="minus" onClick={props.decrement}>Minus</button>
-        <footer>Copyright (C) 2018 Count App.</footer>
+        <footer>2018 Count App.</footer>
       </React.Fragment>
     )
   }
